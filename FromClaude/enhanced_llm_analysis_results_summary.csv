@@ -1,0 +1,7 @@
+,trust_score,trust_score,trust_score,sentiment_score,sentiment_score,sentiment_positive_words,sentiment_negative_words,llm_length,llm_question_count,llm_is_question,llm_has_technical_terms,llm_has_uncertainty,llm_has_confidence
+,mean,std,count,mean,std,sum,sum,mean,mean,mean,mean,mean,mean
+LLM,,,,,,,,,,,,,
+LLM_A,3.843,0.97,115,0.504,0.934,73,14,267.548,0.0,0.0,1.0,0.817,0.435
+LLM_B,3.685,1.178,124,0.562,0.846,84,11,185.097,0.0,0.0,1.0,0.0,0.0
+LLM_C,3.727,0.882,143,0.623,0.905,99,2,162.769,1.0,0.21,1.0,1.0,0.0
+LLM_D,3.509,1.219,108,0.432,0.685,66,4,177.343,0.0,0.0,1.0,0.398,0.0
