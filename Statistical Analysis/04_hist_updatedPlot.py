@@ -3,6 +3,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import matplotlib as mpl
 import numpy as np
+import os
+print("Current working directory:", os.getcwd())
 
 # Load your data
 #df = pd.read_excel("AnalysisForGPT.xlsx")
@@ -10,8 +12,8 @@ df=pd.read_csv("AnalysisForGPTn.csv")  # Use CSV for consistency with other scri
 
 # Verify column names and then set these exactly:
 #questions = ["Gen3", "Gen4", "Gen5", "Gen6", "Gen7", "Gen8"]
-questions = ["Gen3", "Gen4", "Gen5", "Gen6", "Gen7"]
-influencers=["Clarity","Confidence Score","Sources Citation", "Friendly Tone","Technical language"]
+questions = ["Gen3", "Gen4", "Gen5", "Gen6", "Gen7","Gen8"]
+influencers=["Clarity","Confidence Score","Sources Citation", "Friendly Tone","Technical language","Hedging"]
 
 # 2) Make axes
 fig, axes = plt.subplots(2, 3, figsize=(14, 8), sharey=True)
@@ -41,7 +43,7 @@ for ax, q,r  in zip(axes, questions, influencers):
     ax.set_xticks(range(5))
     ax.set_xticklabels(["1","2","3","4","5"])
 
-    ax.set_ylim(0, 70)  # extend y-axis for clarity
+    ax.set_ylim(0, 90)  # extend y-axis for clarity
     ax.set_yticklabels([])
 
     # annotate
