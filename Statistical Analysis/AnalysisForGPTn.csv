@@ -1,4 +1,4 @@
-LLM,Proficiency,Gen1,Clarity,Confidence score,Source citations,Friendly tones,technical language,Hedging language
+Experience,Proficiency,Gen1,Gen3,Gen4,Gen5,Gen6,Gen7,Gen8
 LLM_C,Awareness,Yes,4,4,4,4,4,4
 LLM_B,Awareness,Yes,4,3,5,5,4,3
 LLM_B,Awareness,Yes,3,1,4,2,2,2
@@ -65,9 +65,7 @@ LLM_C,Expert,Yes,5,5,5,5,5,5
 LLM_C,Advanced,Yes,5,4,4,3,5,3
 LLM_C,Intermediate,Yes,5,5,5,5,3,2
 LLM_A,Advanced,Yes,4,3,4,4,4,2
-LLM_B,Advanced,Yes,4,5,5,5,5,5
 LLM_B,Novice,Yes,5,4,4,2,3,3
-LLM_A,Awareness,Yes,3,4,4,2,2,2
 LLM_C,Awareness,No,4,4,4,3,4,3
 LLM_C,Intermediate,Yes,4,4,4,4,4,4
 LLM_B,Expert,Yes,4,4,4,5,4,4

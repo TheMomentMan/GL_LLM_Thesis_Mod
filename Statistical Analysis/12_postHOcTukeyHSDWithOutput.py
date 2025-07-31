@@ -2,13 +2,13 @@ import pandas as pd
 from statsmodels.stats.multicomp import pairwise_tukeyhsd
 
 # 1) Load & prepare
-df = pd.read_csv("Experience_LLM_26thJuly1224.csv")
+df = pd.read_csv("Experience_LLM_30thJuly_1349.csv")
 df["Avg"] = df[["Q1","Q2","Q3","Q4","Q5"]].mean(axis=1)
 
 # 2) Run Tukey HSD for the factor “LLM” (you can swap in “Experience” etc.)
 tukey = pairwise_tukeyhsd(
     endog=df["Avg"],       # the dependent variable
-    groups=df["LLM"],      # the factor
+    groups=df["Experience"],      # the factor
     alpha=0.05             # 95% confidence
 )
 

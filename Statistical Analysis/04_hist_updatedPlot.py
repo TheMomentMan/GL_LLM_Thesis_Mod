@@ -5,11 +5,13 @@ import matplotlib as mpl
 import numpy as np
 
 # Load your data
-df = pd.read_excel("AnalysisForGPT.xlsx")
+#df = pd.read_excel("AnalysisForGPT.xlsx")
+df=pd.read_csv("AnalysisForGPTn.csv")  # Use CSV for consistency with other scripts
 
 # Verify column names and then set these exactly:
-questions = ["Gen3", "Gen4", "Gen5", "Gen6", "Gen7", "Gen8"]
-influencers=["Clarity","Confidence Score","Sources Citation", "Friendly Tone","Technical language","Hedging"]
+#questions = ["Gen3", "Gen4", "Gen5", "Gen6", "Gen7", "Gen8"]
+questions = ["Gen3", "Gen4", "Gen5", "Gen6", "Gen7"]
+influencers=["Clarity","Confidence Score","Sources Citation", "Friendly Tone","Technical language"]
 
 # 2) Make axes
 fig, axes = plt.subplots(2, 3, figsize=(14, 8), sharey=True)

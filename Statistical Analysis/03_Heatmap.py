@@ -3,7 +3,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # --- STEP 1: Load your dataset ---
-df = pd.read_csv("ExperienceLLMScores.csv")  # Update path if needed
+df = pd.read_csv("Experience_LLM_30thJuly_1349.csv")  # Update path if needed
 
 # --- STEP 2: Compute average trust score per respondent ---
 df["TrustScore"] = df[["Q1", "Q2", "Q3", "Q4", "Q5"]].mean(axis=1)

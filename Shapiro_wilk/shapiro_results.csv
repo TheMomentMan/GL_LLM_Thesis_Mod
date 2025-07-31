@@ -1,0 +1,5 @@
+LLM,W-statistic,p-value,Normality
+LLM_C,0.968,0.516,Normal
+LLM_B,0.959,0.228,Normal
+LLM_D,0.98,0.685,Normal
+LLM_A,0.966,0.467,Normal
